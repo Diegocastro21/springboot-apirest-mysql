@@ -17,6 +17,8 @@ public class UsuarioController {
     @Autowired
     UsuarioService usuarioService;
 
+
+
     @GetMapping()
     public ArrayList<UsuarioModel> obtenerUsuarios(){
         return usuarioService.obtenerUsuarios();
